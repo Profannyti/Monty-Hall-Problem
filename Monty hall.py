@@ -102,7 +102,7 @@ if ask_to_switch == 'keep':
     print(door[initial_choice])
 
 else:
-    # Remove the opened door and display the remaining door
+    # Remove the opened doors and display the remaining door
     del door[item], door[initial_choice]
     for final_key in door:
         print(door[final_key])
